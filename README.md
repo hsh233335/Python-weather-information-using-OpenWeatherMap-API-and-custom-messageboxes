@@ -1,7 +1,7 @@
 # Python-weather-information-using-OpenWeatherMap-API-and-custom-messageboxes
 
 # Description
-Shows the current weather information using OpenWeatherMap API and tkinter messagebox.
+Shows the current weather information using OpenWeatherMap API and custo-made messageboxes (Made by me).
 
 # What it does:
 - Sends you a custom-made messageboxes about the current weather.
