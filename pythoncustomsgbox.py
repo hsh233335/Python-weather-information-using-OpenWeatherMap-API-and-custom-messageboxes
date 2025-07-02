@@ -18,7 +18,7 @@ def load_fredoka_one_font():
     """Load Fredoka One font."""
     global font_loaded
     if not font_loaded:
-        font_path = r"C:\Users\ADMIN\Desktop\Fredoka-Bold.ttf"
+        font_path = r"Fredoka-Bold.ttf"
         if not os.path.exists(font_path):
             tkmsg.showerror("Error!", "Your Fredoka One font is deleted, moved, or lacks your permission. \n Exiting after you click OK...")
             sys.exit()
