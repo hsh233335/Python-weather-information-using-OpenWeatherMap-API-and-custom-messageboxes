@@ -25,6 +25,7 @@ while True:
             break
         else:
             continue  
+            
     # Ask Ai about anything mode. (Only uncomment when you want to ask ai.)
     # elif location.lower() == "ai":
     #     question = CustomMessageBox.customTextBoxMsg("Question:", "What do you like to ask ai?", "black", "white", "black", "white")
