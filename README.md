@@ -88,7 +88,7 @@ The results above are also saved in a log (notepad txt file) named as weatherlog
 You will then be asked by another screen, to ask if you want to delete the log file. <br> <br>
 ![Screenshot 2025-07-02 162836](https://github.com/user-attachments/assets/5fac326d-57f1-4a1b-9aaf-09760537e1be) <br> <br>
 If you do click yes, this will happen, or if no, it will return you to the first page. <br> <br>
-![Screenshot 2025-07-02 162913](https://github.com/user-attachments/assets/2c5a1cc2-6e5e-4f0b-a57c-6764c799778f)
+![Screenshot 2025-07-02 162913](https://github.com/user-attachments/assets/2c5a1cc2-6e5e-4f0b-a57c-6764c799778f) <br> <br>
 If you click OK, it will return you to the first page.
 
 # Example Usage (AI Optional: must have Ollama installed):
