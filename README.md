@@ -39,7 +39,7 @@ and this:
 ```
 ollama pull llama3
 ```
-After that uncomment line 23-38.
+**After that uncomment line 23-38 and lines 7-8.**
 ## Step 5 (Required from now on):
 Go to https://home.openweathermap.org/users/sign_up, and **create an account**. **If you already have an account**, go to https://home.openweathermap.org/api_keys, and copy the API Key.
 ## Step 6:
