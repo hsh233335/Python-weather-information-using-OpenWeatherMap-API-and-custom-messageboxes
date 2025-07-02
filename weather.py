@@ -26,22 +26,22 @@ while True:
         else:
             continue  
     # Ask Ai about anything mode. (Only uncomment when you want to ask ai.)
-    elif location.lower() == "ai":
-        question = CustomMessageBox.customTextBoxMsg("Question:", "What do you like to ask ai?", "black", "white", "black", "white")
-        if question is None:
-            question1 = CustomMessageBox.customYesNoMsg("Question:", "Are you sure?", "black", "white", "black", "lightblue")
-            if question1 is True:
-                break
-            else:
-                continue
-        answer: ChatResponse = chat(model= "llama3", messages= [
-            {
-                'role': 'user',
-                'content': question,
-            },
-        ])
-        CustomMessageBox.customMsgBoxWithScrBar("Ai's Response:", "Ai's Response:", answer.message.content, "black", "white", "black", "white", "black", False)
-        continue
+    # elif location.lower() == "ai":
+    #     question = CustomMessageBox.customTextBoxMsg("Question:", "What do you like to ask ai?", "black", "white", "black", "white")
+    #     if question is None:
+    #         question1 = CustomMessageBox.customYesNoMsg("Question:", "Are you sure?", "black", "white", "black", "lightblue")
+    #         if question1 is True:
+    #             break
+    #         else:
+    #             continue
+    #     answer: ChatResponse = chat(model= "llama3", messages= [
+    #         {
+    #             'role': 'user',
+    #             'content': question,
+    #         },
+    #     ])
+    #     CustomMessageBox.customMsgBoxWithScrBar("Ai's Response:", "Ai's Response:", answer.message.content, "black", "white", "black", "white", "black", False)
+    #     continue
     location = str(location).strip("\n")
 
     measurement = CustomMessageBox.customTextBoxMsg("Measurement:", "Enter a measurement unit (metric/imperial):", "black", "white", "black", "white")
