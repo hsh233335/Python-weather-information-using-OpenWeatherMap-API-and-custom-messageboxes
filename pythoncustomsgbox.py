@@ -2,7 +2,7 @@
 A module for your customized message boxes.
 
 Created by Me! (hsh233335) :) This module uses `customtkinter`, which does not include built-in message boxes, 
-so I decided to create 5 of them using the Fredoka One font.
+so I decided to create 4 of them using the Fredoka One font.
 
 I hope you would enjoy it! :)
 """
