@@ -101,10 +101,10 @@ AI then responds with this format (might take a few seconds): <br> <br>
 You can scroll to access overflowed sections of the text. <br>
 If you click OK, you will return to the first page.
 
-# Example Usage (Using the red exit cross button):
+# Example Usage (Using the red exit cross button or Cancel button):
 The first page (with mouse hovering over red cross): <br> <br>
 ![Screenshot 2025-07-02 163624](https://github.com/user-attachments/assets/a596c22c-4935-4134-979d-ff449f2745c6) <br> <br>
-If you click the red cross button, or the cancel button, you will be asked this screen. <br> <br>
+If you click the red cross button, or the Cancel button, you will be asked this screen. <br> <br>
 ![Screenshot 2025-07-02 163826](https://github.com/user-attachments/assets/5053a5b1-69e9-4035-b103-155e5c44693c) <br> <br>
 If you click Yes, the program will close, or if No, it will return you to the first page.
 
