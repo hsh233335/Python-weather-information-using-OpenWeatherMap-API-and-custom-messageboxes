@@ -4,8 +4,8 @@ import tkinter as tk
 import time
 from pythoncustomsgbox import CustomMessageBox
 from datetime import datetime
-from ollama import chat
-from ollama import ChatResponse
+# from ollama import chat
+# from ollama import ChatResponse
 
 # Loop for the program.
 while True:
@@ -61,7 +61,7 @@ while True:
 
     # Get weather data from Openweathermap api.
     try:
-        response = requests.get(f"http://api.openweathermap.org/data/2.5/weather?q={location}&APPID=244874abd02bc7d3b293026b7478955f&units={measurement}")
+        response = requests.get(f"http://api.openweathermap.org/data/2.5/weather?q={location}&APPID=YOURAPIKEY&units={measurement}")
         data = response.json()
     except (requests.exceptions.ConnectionError, ConnectionError):
         CustomMessageBox.customMsgBox("Error!", "Your Wi-Fi is currently not working. \n Please try again later. \n Exiting after you click OK...", "black", "red", "white", "red", True)
