@@ -1,6 +1,5 @@
 # Python-weather-information-using-OpenWeatherMap-API-and-custom-messageboxes
 
-# Python-weather-information-using-OpenWeatherMap-API
 # Description
 Shows the current weather information using OpenWeatherMap API and tkinter messagebox.
 
@@ -18,7 +17,8 @@ Python 3 and above.
 
 # How do I run this code?
 ## Step 1:
-Download the Python file, and the Fredoka One font file. ***IMPORTANT! (Please put the Fredoka One font file in the same directory as your Python file.)***
+Download the Python files, and the Fredoka One font file. ***IMPORTANT! (Please put the Fredoka One font file in the same directory as your Python file.)***
+***The one to run is the weather.py file and NOT the pythoncustomsgbox.py.***
 Using:
 ```
 git clone https://github.com/hsh233335/Python-weather-information-using-OpenWeatherMap-API
