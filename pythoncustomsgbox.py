@@ -136,45 +136,6 @@ class CustomMessageBox:
         toplevel.grab_set()
         toplevel.wait_window()
         return result["answer"]
-    
-    @staticmethod
-    def customYesNoCancelMsg(msgboxtitle, textmsgquestion, bg_color, btn_fg_color, btn_text_color, text_color):
-        """Shows a custom customtkinter messagebox with an Yes/No/Cancel button."""
-        load_fredoka_one_font()
-        label_font = customtkinter.CTkFont(family="Fredoka", size=20)
-        toplevel = customtkinter.CTkToplevel()
-        toplevel.geometry("1000x500")
-        width, height = 1000, 500
-        CustomMessageBox.center_msgbox_win(toplevel, width, height)
-        toplevel.title(msgboxtitle)
-        toplevel.configure(fg_color= bg_color)
-        toplevel.resizable(False, False)
-        spacing_label = customtkinter.CTkLabel(master= toplevel, text= "\n")
-        spacing_label.pack()
-        label = customtkinter.CTkLabel(master= toplevel, text= textmsgquestion, font= label_font, text_color= text_color)
-        label.pack()
-        spacing_label1 = customtkinter.CTkLabel(master= toplevel, text= "\n")
-        spacing_label1.pack()
-        result = {"answer": None}
-        def on_yes():
-            result["answer"] = True
-            toplevel.destroy()
-        def on_no():
-            result["answer"] = False
-            toplevel.destroy()
-        buttonyes = customtkinter.CTkButton(master= toplevel, text= "Yes", corner_radius= 15, fg_color= btn_fg_color, text_color= btn_text_color, hover= False, cursor= "hand2", command= on_yes)
-        buttonno = customtkinter.CTkButton(master= toplevel, text="No", corner_radius= 15, fg_color= btn_fg_color, text_color= btn_text_color, hover= False, cursor= "hand2", command= on_no)
-        buttoncancel = customtkinter.CTkButton(master= toplevel, text= "Cancel", corner_radius= 15, fg_color= btn_fg_color, text_color= btn_text_color, hover= False, cursor= "hand2", command= lambda: toplevel.destroy())
-        buttonyes.pack()
-        spacing_label2 = customtkinter.CTkLabel(master= toplevel, text= "\n")
-        spacing_label2.pack()
-        buttonno.pack()
-        spacing_label3 = customtkinter.CTkLabel(master= toplevel, text= "\n")
-        spacing_label3.pack()
-        buttoncancel.pack()
-        toplevel.grab_set()
-        toplevel.wait_window()
-        return result["answer"]
 
     @staticmethod
     def customTextBoxMsg(msgboxtitle, textmsg, bg_color, btn_fg_color, btn_text_color, text_color):
