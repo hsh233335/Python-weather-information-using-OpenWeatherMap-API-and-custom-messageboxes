@@ -94,10 +94,10 @@ If you click OK, it will return you to the first page.
 # Example Usage (AI Optional: must have Ollama installed):
 The first page, type ai. <br> <br>
 ![Screenshot 2025-07-02 163125](https://github.com/user-attachments/assets/71481471-29cb-43c8-a90d-93c5c8092632) <br> <br>
-The next page will ask you what do  you like to ask AI? In my case I asked it, **what foods are good for a diet?** <br> <br>
-![Screenshot 2025-07-02 163308](https://github.com/user-attachments/assets/6946e1c6-6c26-4558-afcd-51c8d1189259) <br> <br>
+The next page will ask you what do  you like to ask AI? In my case I asked it, **how are clouds formed?** <br> <br>
+![Screenshot 2025-07-02 171653](https://github.com/user-attachments/assets/63d89c1b-c40a-4ecd-9daa-97b835229c6a) <br> <br>
 AI then responds with this format (might take a few seconds): <br> <br>
-![Screenshot 2025-07-02 163416](https://github.com/user-attachments/assets/db7d3572-6a90-4db3-9a12-384c4de58604) <br> <br>
+![Screenshot 2025-07-02 171750](https://github.com/user-attachments/assets/5ffca365-3c85-4ad3-a950-07163559cb06) <br> <br>
 You can scroll to access overflowed sections of the text. <br>
 If you click OK, you will return to the first page.
 
