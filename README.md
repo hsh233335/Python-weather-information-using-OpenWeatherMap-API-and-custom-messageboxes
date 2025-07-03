@@ -19,7 +19,7 @@ Python 3 and above.
 ## Step 1:
 Download the Python files, and the Fredoka One font file. <br> ***IMPORTANT! (Please put the Fredoka One font file in the same directory as your weather.py and pythoncustomsgbox.py files.)*** <br>
 ***The one to run is the weather.py file and NOT the pythoncustomsgbox.py.*** <br>
-***The pythoncustomsgbox.py file MUST also be in the same directory as weather.py.***
+***The pythoncustomsgbox.py file MUST also be in the same directory as weather.py.*** <br>
 Using:
 ```
 git clone https://github.com/hsh233335/Python-weather-information-using-OpenWeatherMap-API
