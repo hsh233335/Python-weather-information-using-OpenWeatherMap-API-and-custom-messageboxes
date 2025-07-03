@@ -24,7 +24,7 @@ Using:
 ```
 git clone https://github.com/hsh233335/Python-weather-information-using-OpenWeatherMap-API
 ```
-or **if you don't have git, press the green code button and the top and click "Download ZIP". Click here to download also: 
+or **if you don't have git, press the green code button and the top and click "Download ZIP". Click here to download also: https://github.com/hsh233335/Python-weather-information-using-OpenWeatherMap-API-and-custom-messageboxes/archive/refs/heads/main.zip
 After that, extract the file and follow the steps below. (I would recommend moving the downloaded and extracted file to Desktop, get the python file out of the extracted folder.)**
 ## Step 2 (Optional (to use Ollama AI mentioned above):
 Go to https://ollama.com/download
